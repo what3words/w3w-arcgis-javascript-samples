@@ -1,0 +1,66 @@
+html,
+body,
+#viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#search {
+    z-index: 99;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    padding: 5px;
+    height: 30px;
+    width: 170px;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+#convertToCoordinateButton {
+    position: absolute;
+    top: 15px;
+    left: 250px;
+    z-index: 99;
+    padding: 5px;
+    height: 30px;
+    width: 170px;
+    background: rgba(80, 78, 78, 0.8);
+    color: white;
+}
+
+#aBtnGroup {
+    position: absolute;
+    top: 55px;
+    left: 60px;
+    z-index: 99;
+}
+
+#aBtnGroup button {
+    background-color: white;
+    /* Green background */
+    border: 1px solid lightgrey;
+    /* Green border */
+    color: black;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    width: 100%;
+    /* Set a width if needed */
+    display: block;
+    /* Make the buttons appear below each other */
+}
+
+#aBtnGroup button:not(:last-child) {
+    border-bottom: none;
+    /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+#aBtnGroup button:hover {
+    background-color: lightgray;
+}

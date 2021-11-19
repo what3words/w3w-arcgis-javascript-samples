@@ -1,0 +1,31 @@
+@import "https://js.arcgis.com/4.21/@arcgis/core/assets/esri/themes/light/main.css";
+html,
+body,
+#viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.panel {
+    display: grid;
+    padding: 0px 10px 10px;
+    width: 300px;
+}
+
+.addresses {
+    overflow: scroll;
+}
+
+.esri-view .esri-ui {
+    inset: 0 !important;
+}
+
+.esri-button {
+    margin-bottom: 5px;
+}
+
+.esri-view .esri-component.esri-attribution {
+    position: fixed;
+}
