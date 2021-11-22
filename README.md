@@ -19,8 +19,8 @@ There are multiple options for bringing the ArcGIS API for JavaScript into your 
 ## Overview
 In ArcGIS API for JavaScript the what3words ArcGIS Locator gives you programmatic accesss to:
 
-* Convert coordinates to a 3 word address
 * Convert a 3 word address to coordinates
+* Convert coordinates to a 3 word address
 * Autosuggest functionality which takes a slightly incorrect 3 word address, and suggests a list of valid 3 word addresses
 * Batch geocode of a list of 3 word addresses 
 * What3words locator can be added to the search bar widget
