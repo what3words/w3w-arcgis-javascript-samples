@@ -1,15 +1,58 @@
-# w3w-arcgis-api-js
+[![what3words](https://what3words.com/assets/images/w3w_square_red.png)](https://developer.what3words.com)
+# what3words ArcGIS Locator for ArcGIS JavaScript API
 
 A collection of resources for developers using the ArcGIS API for JavaScript to integrate what3words ArcGIS Locator.
 
-The ArcGIS API for JavaScript is available as AMD and ES modules. 
+There are multiple options for bringing the ArcGIS API for JavaScript into your app. The most common way is to use the AMD modules via ArcGIS CDN, however you can also use ES modules for local builds. The examples here will show how to integrate what3words ArcGIS locator to both the AMD modules via ArcGIS CDN and ES modules via npm.
+The advantage to use ES modules is that you can install the API locally for use with JavaScript frameworks such as React and Angular, and with module bundlers such as webpack.
 
-### ES modules via NPM
+## Table of Contents
 
-The API is also available as ES modules via npm, a JavaScript package manager. You can install the API locally for use with JavaScript frameworks such as React and Angular, and with module bundlers such as webpack.
+* [Overview](#overview)
+* [Prerequisites](#prerequisites)
+* [Documentation](#documentation)
+* [Usage](#usage)
+* [Resources](#resources)
+* [Contributing](#contributing)
+* [Licensing](#licensing)
 
-### AMD modules via ArcGIS CDN
 
-The most common approach for accessing the API is to use the hosted version. Reference the API and CSS from our CDN to start using the API in your app.
+## Overview
+In ArcGIS API for JavaScript the what3words ArcGIS Locator gives you programmatic accesss to:
 
-Here is a list of examples in both modules. Check it out!
+* Convert coordinates to a 3 word address
+* Convert a 3 word address to coordinates
+* Autosuggest functionality which takes a slightly incorrect 3 word address, and suggests a list of valid 3 word addresses
+* Batch geocode of a list of 3 word addresses 
+* What3words locator can be added to the search bar widget
+* Determine the currently support 3 word address languages
+
+## Prerequisites
+
+* If you are new to ArcGIS start [with the mapping APIs and location services guide](https://developers.arcgis.com/documentation/mapping-apis-and-services/);
+* Get the what3words API key [HERE](https://developer.what3words.com/public-api).
+
+## Documentation
+Please check out our tutorial page [HERE](https://developer.what3words.com/tutorial/list).
+
+## Usage
+Both [AMD](./amd_w3w_arcgis_js) and [ES](./es_w3w_arcgis_js) modules have 4 JavaScript examples with instructions on how to get started.
+
+## Resources
+* [what3words API Key](https://developer.what3words.com/public-api)
+* [What3words ArcGIS Locator](https://developer.what3words.com/tools/gis-extensions/arcgis) 
+* [what3words Developer Tutorials](https://developer.what3words.com/tutorial/list)
+* [ArcGIS API for JavaScript](https://developers.arcgis.com/documentation/mapping-apis-and-services/)
+* [AMD modules via ArcGIS CDN](https://developers.arcgis.com/javascript/latest/install-and-set-up/)
+* [Build with ES modules](https://developers.arcgis.com/javascript/latest/es-modules/)
+
+## Issues
+Find a bug or want to request a new feature? Please let us know by submitting an issue.
+
+## Contributing
+Anyone and everyone is welcome to contribute.
+
+## Licensing
+The MIT License (MIT)
+
+A copy of the license is available in the repository's [license](LICENSE) file.

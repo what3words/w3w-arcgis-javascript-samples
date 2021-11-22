@@ -18,6 +18,7 @@ This repo demonstrates how to use [`What3words ArcGIS Locator`](https://develope
 @import 'https://js.arcgis.com/4.21/@arcgis/core/assets/esri/themes/light/main.css';
 ```
 **Step 3** - Get `what3words API key` 
+
 **Step 4** - Create an `.env` file to host your private environment variables, use the `.env.example` as a template
 
 For additional information, see the [Build with ES modules](https://developers.arcgis.com/javascript/latest/es-modules/) Guide topic in the SDK.

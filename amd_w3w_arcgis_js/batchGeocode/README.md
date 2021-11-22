@@ -14,12 +14,13 @@ This repo demonstrates how to use [What3words ArcGIS Locator](https://developer.
 **Step 1** - If you are new to ArcGIS start with the [mapping APIs and location services guide](https://developers.arcgis.com/documentation/mapping-apis-and-services/).
 
 **Step 2** - Get `what3words API key` 
-**Step 4** - Replace the following environemnt variables with yours:
+
+**Step 3** - Replace the following environemnt variables with yours:
 
     username: "YOUR-W3W-EMAIL-ADDRESS", 
     password: "YOUR-W3W-API-KEY", 
 
-**Step 5** - Open `index.html` in any browser to display it
+**Step 4** - Open `index.html` in any browser to display it
 
 A screenshot of how the app should look like:
 ![What3words Batch Geocode in ArcGIS JS](./images/batchGeocode.png)
