@@ -1,10 +1,9 @@
 [![what3words](https://what3words.com/assets/images/w3w_square_red.png)](https://developer.what3words.com)
-# what3words ArcGIS Locator for ArcGIS JavaScript API
+# what3words Locator for ArcGIS JavaScript API
 
 A collection of resources for developers using the ArcGIS API for JavaScript to integrate what3words ArcGIS Locator.
 
-There are multiple options for bringing the ArcGIS API for JavaScript into your app. The most common way is to use the AMD modules via ArcGIS CDN, however you can also use ES modules for local builds. The examples here will show how to integrate what3words ArcGIS locator to both the AMD modules via ArcGIS CDN and ES modules via npm.
-The advantage to use ES modules is that you can install the API locally for use with JavaScript frameworks such as React and Angular, and with module bundlers such as webpack.
+There are multiple options for bringing the ArcGIS API for JavaScript into your app. The most common way is to use the AMD modules via ArcGIS CDN, however you can also use ES modules for local builds. The examples here will show how to integrate what3words ArcGIS locator to both the AMD modules via ArcGIS CDN and ES modules via npm. The advantage to use ES modules is that you can install the API locally for use with JavaScript frameworks such as React and Angular, and with module bundlers such as webpack.
 
 ## Table of Contents
 
